@@ -46,8 +46,6 @@ In addition to the complete dataset package, we provide a sample package with on
   - size: 447 MiB
   - sha256sum: ```1e6371127e7ed8f8240ef82dd228ee8d792e7729266f6ee209403b16851f1f94```
 
-NOTE: To meet the "double-anonymous" requirement of the RA-L review process, the (sample) dataset package is temporarily available on [Google Drive](https://drive.google.com/drive/folders/1G35tWMZCml4hsPr0hGrmimIwY1ZV0EJV?usp=sharing).
-
 **Data format**
 
 The dataset files are PNG images and JSON data files. The CMCor archive has two folders:
