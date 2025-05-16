@@ -28,7 +28,9 @@ This is the official repository for the letter "Interactive Robotic Moving Cable
 
 Manipulating tangled hoses, cables, or ropes can be challenging for both robots and humans. Humans often approach these perceptually demanding tasks by pushing or pulling tangled cables and observing the resulting motions. We follow a similar idea to aid robotic cable manipulation. In this letter, we integrate visual and proprioceptive perception to segment a grasped cable by moving it even when the robot or the grasped cable sometimes perturb neighboring cables. We formulate the cable interactive segmentation problem in such a way that our methods do not require robot arm segmentation masks. Furthermore, a novel grasp sampling method can propose new cable grasp points given a partial cable segmentation to improve the segmentation via additional cable-robot interaction. We evaluate the proposed *motion correlation* (MCor) method on data sequences recorded by our physical robotic setup and show that the method outperforms an earlier *motion segmentation* (MSeg) baseline.
 
-![Paper video.](videos/paper-video.mp4)
+[![Paper video.](videos/paper-video-title.png)](https://data.ciirc.cvut.cz/public/projects/2025CMCor/paper-video.mp4)
+
+(![The same paper video in this repo.](videos/paper-video.mp4))
 
 
 ## Dataset
