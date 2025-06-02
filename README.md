@@ -37,9 +37,9 @@ Manipulating tangled hoses, cables, or ropes can be challenging for both robots 
 
 We provide the Cable Motion Correlation (CMCor) dataset in a single zip archive.
 
-- [CMCor.zip](https://data.ciirc.cvut.cz/public/projects/2025CMCor/CMCor.zip) - WARNING: This package is an older version of the dataset. It will be extended and updated soon!
-  - size: 30.5 GiB
-  - sha256sum: ```ab884ce8200d8a3b2bdc412f283221adce3e0934155c1ccbddeaa4ec66986310```
+- [CMCor.zip](https://data.ciirc.cvut.cz/public/projects/2025CMCor/CMCor.zip)
+  - size: 46.8 GiB
+  - sha256sum: ```d8fceb99ffcebd721fcb5063e3b2be14999973fdf740d43061cfe823ba807600```
 
 In addition to the complete dataset package, we provide a sample package with only one recorded (validation) sequence of the dataset:
 
@@ -60,6 +60,7 @@ The dataset files are PNG images and JSON data files. The CMCor archive has two 
   - ```arm_DDDDDDDD.png``` (not in all sequences) - robot arm binary segmentation mask sequence
   - Corresponding rgb, depth and arm images have the same ```DDDDDDDD``` index. The same index also points to the corresponding action label in ```action_buffer``` and gripper position in ```ee_point_buffer```.
 
+The JSON file ```CMCor/multigrasp_sequences.json``` lists the groups of multigrasp sequences. The sequences in each multigrasp group (the lowest-level list of sequence names in the JSON file) were recorded by grasping and moving the same cable. The first sequence in each group used a grasp given by a human, all the following sequences used automatically proposed grasps.
 
 ## License
 
