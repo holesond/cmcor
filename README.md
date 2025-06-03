@@ -1,13 +1,15 @@
 # Interactive Robotic Moving Cable Segmentation by Motion Correlation
 
-This is the official repository for the letter "Interactive Robotic Moving Cable Segmentation by Motion Correlation" by Ondřej Holešovský, Radoslav Škoviera, Václav Hlaváč (accepted to IEEE RA-L).
+This is the official repository for the letter [Interactive Robotic Moving Cable Segmentation by Motion Correlation](https://doi.org/10.1109/LRA.2025.3574960), IEEE RA-L, 2025 by Ondřej Holešovský, Radoslav Škoviera, Václav Hlaváč.
+
+All the dataset packages are available on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15356102.svg)](https://doi.org/10.5281/zenodo.15356102)
 
 ```
 @Article{Holesovsky2025,
   author    = {Ondrej Holesovsky and Radoslav Skoviera and Vaclav Hlavac},
   journal   = {IEEE Robotics and Automation Letters},
   title     = {{I}nteractive {R}obotic {M}oving {C}able {S}egmentation by {M}otion {C}orrelation},
-  year      = {accepted 2025},
+  year      = {2025},
   publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
 }
 ```
@@ -34,6 +36,8 @@ Manipulating tangled hoses, cables, or ropes can be challenging for both robots 
 
 
 ## Dataset
+
+All the dataset packages are available on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15356102.svg)](https://doi.org/10.5281/zenodo.15356102)
 
 We provide the Cable Motion Correlation (CMCor) dataset in a single zip archive.
 
