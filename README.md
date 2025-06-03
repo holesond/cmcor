@@ -38,8 +38,8 @@ Manipulating tangled hoses, cables, or ropes can be challenging for both robots 
 We provide the Cable Motion Correlation (CMCor) dataset in a single zip archive.
 
 - [CMCor.zip](https://data.ciirc.cvut.cz/public/projects/2025CMCor/CMCor.zip)
-  - size: 46.8 GiB
-  - sha256sum: ```d8fceb99ffcebd721fcb5063e3b2be14999973fdf740d43061cfe823ba807600```
+  - size: 42.9 GiB
+  - sha256sum: ```231f8887f87a7190b522b9b6f97cc7b46f52fb4f8d2c76d67458c7c10e7b799e```
 
 In addition to the complete dataset package, we provide a sample package with only one recorded (validation) sequence of the dataset:
 
