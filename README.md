@@ -87,7 +87,9 @@ Running the code requires [Python](https://www.python.org) version 3.7 or greate
 numpy
 matplotlib
 opencv-contrib-python   # For cv2. May be also only opencv-python.
+scikit-image
 scikit-learn
+scipy
 numpy-quaternion
 tqdm
 ```
