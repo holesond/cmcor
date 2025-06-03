@@ -3,6 +3,7 @@ The main configuration file of the cmcor code package.
 """
 
 import os
+import json
 
 
 
@@ -96,3 +97,14 @@ class MotionPerceptionSettings():
             self.dataset_root, "motion_correlation_buffers")
         self.gt_root = os.path.join(
             self.dataset_root, "motion_correlation_annotations")
+        self.multigrasp_json_path = os.path.join(
+            self.dataset_root, "multigrasp_sequences.json")
+        if os.path.isfile(self.multigrasp_json_path):
+            with open(self.multigrasp_json_path, "r") as fp:
+                print(f"Loading {self.multigrasp_json_path}...")
+                self.double_grasp_sequences = json.load(fp)
+                assert(
+                    len(self.double_grasp_sequences) <=
+                    len(self.double_grasp_params))
+                self.double_grasp_params = self.double_grasp_params[
+                    0:len(self.double_grasp_sequences)]

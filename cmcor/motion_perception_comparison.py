@@ -520,6 +520,6 @@ def video_multigrasp():
 
 
 if __name__ == "__main__":
-    #single_grasp_comparison()
+    single_grasp_comparison()
     double_grasp_comparison()
     #video_multigrasp()

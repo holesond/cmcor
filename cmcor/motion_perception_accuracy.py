@@ -454,5 +454,5 @@ def double_grasp_evaluation():
 
 
 if __name__ == "__main__":
-    #single_grasp_evaluation()
+    single_grasp_evaluation()
     double_grasp_evaluation()
