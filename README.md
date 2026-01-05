@@ -24,6 +24,7 @@ All the dataset packages are available on Zenodo: [![DOI](https://zenodo.org/bad
     * [Installation](#installation)
     * [Run the code - compute the results](#run-the-code---compute-the-results)
     * [Run the code - analyze the results](#run-the-code---analyze-the-results)
+    * [Additional modules](#additional-modules)
 
 
 ## Introduction
@@ -165,4 +166,14 @@ Create qualitative plots comparing motion segmentation and correlation methods s
 ```
 python3 -m cmcor.motion_perception_comparison
 ```
+
+
+### Additional modules
+
+- ``cable_pose`` - Estimate the cable segment pose in a depth image.
+  - Test it using: ``python3 -m cmcor.cable_pose``
+- ``pixel_segment`` - Return a segment for grasping given a binary mask image and a pixel within the cable mask.
+  - Test it using: ``python3 -m cmcor.pixel_segment``
+- ``grasp_segment_sampler`` - Sample cable segments likely suitable for grasping.
+  - Test is using: ``python3 -m cmcor.grasp_segment_sampler``.
 
