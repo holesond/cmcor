@@ -170,10 +170,10 @@ python3 -m cmcor.motion_perception_comparison
 
 ### Additional modules
 
-- ``cable_pose`` - Estimate the cable segment pose in a depth image.
+- ``cable_pose.py`` - Estimate the cable segment pose in a depth image.
   - Test it using: ``python3 -m cmcor.cable_pose``
-- ``pixel_segment`` - Return a segment for grasping given a binary mask image and a pixel within the cable mask.
+- ``pixel_segment.py`` - Return a segment for grasping given a binary mask image and a pixel within the cable mask.
   - Test it using: ``python3 -m cmcor.pixel_segment``
-- ``grasp_segment_sampler`` - Sample cable segments likely suitable for grasping.
-  - Test is using: ``python3 -m cmcor.grasp_segment_sampler``.
+- ``grasp_segment_sampler.py`` - Sample cable segments likely suitable for grasping.
+  - Test is using: ``python3 -m cmcor.grasp_segment_sampler``
 
